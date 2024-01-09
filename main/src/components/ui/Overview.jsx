@@ -42,9 +42,9 @@ function Overview() {
         ))}
       </div>
 
-      <div className="absolute right-12 top-8 flex items-center justify-between space-x-2 rounded-md border bg-stone-50 px-4 py-2">
+      <div className="absolute right-12 top-8 flex cursor-pointer items-center justify-between space-x-2 rounded-md border bg-stone-50 px-4 py-2">
         <span>This month</span>
-        <span className="flex items-center w-3 h-3">
+        <span className="flex h-3 w-3 items-center">
           <img src="/down.svg" alt="icon" />
         </span>
       </div>
