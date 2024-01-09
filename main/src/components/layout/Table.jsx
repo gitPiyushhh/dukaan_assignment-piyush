@@ -61,10 +61,7 @@ function Table() {
 
       {/* Table here */}
       <div role="table" className="mt-4">
-        <div
-          role="th"
-          className="flex justify-between bg-stone-200 p-3 text-sm font-semibold"
-        >
+        <div className="flex justify-between bg-stone-200 p-3 text-sm font-semibold">
           {tableHeadMetaData.map((item) => (
             <TableHead
               key={item.name}
@@ -75,7 +72,7 @@ function Table() {
           ))}
         </div>
 
-        <div role="td">
+        <div>
           {data.map((item) => (
             <TableRow key={item.orderId} data={item} width={width} />
           ))}

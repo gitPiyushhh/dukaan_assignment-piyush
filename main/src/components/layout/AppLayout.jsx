@@ -6,7 +6,7 @@ function AppLayout() {
   return (
     <div className='flex bg-[#FAFAFA] w-[100vw] h-[100dvh]'>
       <Sidebar />
-
+      
       <Outlet />
     </div>
   );
